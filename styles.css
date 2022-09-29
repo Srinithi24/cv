@@ -1,142 +1,154 @@
 body {
-  margin: 0;
-  color: #40514E;
-  text-align: center;
-  font-family: "Merriweather";
-  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
 }
 
 h1 {
-  margin-top: 50px auto 0 auto;
-  font-size: 90px;
-  line-height: 2;
-  font-family: "Sacramento";
-  color: #11999E;
-
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
+h2{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
 
-h2 {
-  font-family: "Montserrat";
-  font-size:2.5rem;
-  font-weight: normal;
-  color: #11999E;
-  padding-bottom: 10px;
 }
 
 h3 {
-  font-family: "Montserrat";
-  color: #11999E
-}
-p{
-  line-height: 2;
-}
-hr{
-  border: dotted #EAE6F6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
-a{
-  color: #11999E;
-  font-family: "Montserrat";
-  margin: 10px 20px;
-}
-a:hover{
-  color:#EAE6F6;
-}
-.copyright{
-  color: #EAF6F6;
-  font-size: 0.75em;
-  padding: 20px 0;
-}
-.top-container {
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
-}
-
-.middle-container {
-
-  margin: 100px 0;
-  font-family: "Montserrat"
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: bold;
 
 }
-
-.bottom-container {
-
-  background-color: #66BFBF;
-  font-family: "Montserrat";
-  padding: 50px 0 20px;
+h4{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
 }
-.skill-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
-
-  text-align: left;
-
-}
-.speech-img{
-  width: 25%;
-  float: left;
-  margin-left: 30px;
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
 
 }
-.skill-img{
-  width:25%;
-  float: right;
-  margin-left: 30px;
+p {
+  color: grey;
+}
 
+/*navigation bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+/*Downloading buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
 
-
-
-.pro {
-  text-decoration: underline;
-}
-.intro{
-  width: 30%;
-  margin: auto;
-}
-.contact-me{
-  width:40%;
-  margin: 40px auto 60px;
-}
-.bottom-cloud {
+/*title*/
+.title-image {
+  width: 18%;
+  transform: rotate(25deg);
+  z-index: 1;
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  right: 30%;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
+/*feature box*/
+#features {
+  padding: 7% 15%;
+  background-color: white;
+ position: relative;
+ z-index: 2;
+
 
 }
-.btn {
-  background: #11CDD4;
-  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: "Montserrat";
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+
+.feature-box {
+  text-align: center;
 }
 
-.btn:hover {
-  background: #30E3CB;
-  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
-  text-decoration: none;
+.icon {
+  color: #cf8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/*testimonial section*/
+#testimonials{
+
+  text-align: center;
+  background-color:#cf8172;
+  color: white;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+#press{
+  padding:3%;
+  text-align: center;
+  background-color: #cf8172;
+}
+.press-image{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+/*pricing section*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-coloumn{
+  padding: 3% 2% ;
+}
+
+@media (max-width:992px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#footer{
+  text-align: center;
 }
